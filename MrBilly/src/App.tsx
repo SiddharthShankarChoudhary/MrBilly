@@ -1,19 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+import { Box, Typography } from '@mui/material';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <Box>
-      <Box>
-        <Typography>Hello World</Typography>
-      </Box>
       <Typography>Hello World</Typography>
     </Box>
   );
 }
-
-export default App
