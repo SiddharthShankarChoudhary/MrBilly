@@ -7,9 +7,7 @@ import { Box, Typography } from '@mui/material';
 export default function App() {
   return (
     <Box>
-      <Typography>
-        Hello World
-      </Typography>
+      <Typography>Hello World</Typography>
     </Box>
-  )
+  );
 }
